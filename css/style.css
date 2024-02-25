@@ -5,6 +5,10 @@
 
 }
 
+img {
+    max-width: 100%;
+}
+
 /* HEADER */
 
 
@@ -21,6 +25,7 @@ header {
     height: 80px;
     line-height: 20px;
     background-color: aquamarine;
+    
 }
 
 
@@ -38,7 +43,10 @@ ul {
     display: flex;
 }
 
-
+.button {
+   
+    border-radius: 20%;
+}
 /* menu */
 
 header .container>* {
@@ -58,20 +66,22 @@ main {
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    
 }
 
 
 
 .container2 {
     height: 200px;
-    background-color: blue;
     width: 100%;
     display: flex;
     justify-content: center;
+    
 }
 
 
 .hero {
+    
     margin: 20px;
     padding: 5px;
     height: 150px;
