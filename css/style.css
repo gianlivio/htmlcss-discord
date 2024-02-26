@@ -54,7 +54,42 @@ ul {
     
 }
 
-/* bottonimac e browser + h1 */
+
+/* MAIN */
+
+
+/* Hero Jumbotrone*/
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+
+.container2 {
+    height: 200px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-image: url(../img/img/jumbo.png);
+    background-size: cover;
+    
+}
+
+
+.hero {    
+    margin: 20px;
+    padding: 5px;
+    height: 150px;
+    width: 50%;
+    text-align: center;
+}
+
+
+
+    /* bottonimac e browser + h1 */
 
 nav > * {
     color: aliceblue;
@@ -74,46 +109,13 @@ nav > * {
 
 }
 
-.hero {
+.hero > a {
     display: flex;
     align-items: end;
     justify-content: center;
     text-align: center;
 }
 
-/* MAIN */
-
-
-/* Hero Jumbotrone*/
-main {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    
-    
-}
-
-
-
-.container2 {
-    height: 200px;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    
-    
-}
-
-
-.hero {
-    
-    margin: 20px;
-    padding: 5px;
-    height: 150px;
-    width: 50%;
-    background-color: pink;
-}
 
 
 /* cerntral part section 1 */
@@ -121,7 +123,7 @@ main {
 .container3 {
 
     height: 200px;
-    background-color: aliceblue;
+   background-color: aliceblue;
     width: 100%;
     display: flex;
     justify-content: center;
@@ -133,16 +135,16 @@ main {
     margin-top: 25px;
     height: 150px;
     width: 40%;
-    background-color: blue;
-    border: 2px dashed black;
+   background-image: url(../img/img/item1.svg);
+    background-size: cover;
+    
 }
 
 .rett2 {
     margin-top: 25px;
-    border: 2px dashed black;
     height: 150px;
     width: 20%;
-    background-color: pink;
+    
 }
 
 
@@ -200,16 +202,15 @@ main {
     margin-top: 25px;
     height: 150px;
     width: 40%;
-    background-color: blue;
-    border: 2px dashed black;
+    
 }
 
 .rett2 {
     margin-top: 25px;
-    border: 2px dashed black;
+    
     height: 150px;
     width: 20%;
-    background-color: pink;
+   
 }
 
 /* central part section 4 */
