@@ -50,9 +50,36 @@ ul {
    
     border-radius: 20%;
     background-color: aliceblue;
+    text-decoration: none;
     
 }
 
+/* bottonimac e browser + h1 */
+
+nav > * {
+    color: aliceblue;
+    text-decoration: none;
+}
+
+.mac-version{
+    border-radius: 20%;
+    background-color: aliceblue;
+    color: black;
+}
+
+.browser-version {
+    border-radius: 20%;
+    background-color: black;
+    color: aliceblue;
+
+}
+
+.hero {
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    text-align: center;
+}
 
 /* MAIN */
 
@@ -74,6 +101,7 @@ main {
     width: 100%;
     display: flex;
     justify-content: center;
+    
     
 }
 
